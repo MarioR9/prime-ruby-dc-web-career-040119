@@ -5,8 +5,8 @@ def prime?(int)
     return true
   end
 
-    (2..int-1).each do |divider|
-      if (int%divider==0)
+    (2..int-1).each do |d|
+      if (int%d==0)
         return false
       end
     end
