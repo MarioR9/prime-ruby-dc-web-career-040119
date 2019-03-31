@@ -1,32 +1,12 @@
 def prime?(int)
-   if int == 1
-
-    return false
-
-  elsif int < 1
-
-    return false
-
-  elsif int == 2
-
-    return true
-
-  end
-
-
-
-    (2..int-1).each do |divider|
-
-      if int%divider==0)
-
-        return false
-
-      end
-
+    if int < 2 
+      return false
+  
+  (2..(int - 1)).each do |n|
+    if int % n == 0
+      return false 
     end
-
-
-
-  true
+  end
+   return true
 end
 
