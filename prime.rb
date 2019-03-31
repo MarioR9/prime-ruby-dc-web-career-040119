@@ -1,4 +1,5 @@
 def prime?(int)
+  
     if a < 2
     return false
   end
