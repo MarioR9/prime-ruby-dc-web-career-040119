@@ -1,13 +1,13 @@
 def prime?(int)
-   if num == 1
+   if int == 1
 
     return false
 
-  elsif num < 1
+  elsif int < 1
 
     return false
 
-  elsif num == 2
+  elsif int == 2
 
     return true
 
@@ -15,9 +15,9 @@ def prime?(int)
 
 
 
-    (2..num-1).each do |divider|
+    (2..int-1).each do |divider|
 
-      if (num%divider==0)
+      if int%divider==0)
 
         return false
 
